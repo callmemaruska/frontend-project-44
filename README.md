@@ -4,3 +4,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/231a8f552b3eaa1c79c7/maintainability)](https://codeclimate.com/github/callmemaruska/frontend-project-44/maintainability)
 
 https://asciinema.org/a/599804
+
+https://asciinema.org/a/600297
