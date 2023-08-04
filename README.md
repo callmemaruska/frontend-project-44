@@ -5,4 +5,6 @@
 
 https://asciinema.org/a/599804
 
-https://asciinema.org/a/600297
+https://asciinema.org/a/600688
+
+https://asciinema.org/a/600689
