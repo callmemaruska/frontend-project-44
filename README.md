@@ -3,12 +3,12 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/231a8f552b3eaa1c79c7/maintainability)](https://codeclimate.com/github/callmemaruska/frontend-project-44/maintainability)
 
-https://asciinema.org/a/599804
+brain-even: https://asciinema.org/a/599804
 
-https://asciinema.org/a/600688
+brain-calc: https://asciinema.org/a/600688
 
-https://asciinema.org/a/600689
+brain-gcd: https://asciinema.org/a/600689
 
-https://asciinema.org/a/600740
+brain-progression: https://asciinema.org/a/600740
 
-https://asciinema.org/a/600842
+brain-prime: https://asciinema.org/a/600842
