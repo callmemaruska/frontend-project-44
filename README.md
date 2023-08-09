@@ -10,3 +10,5 @@ https://asciinema.org/a/600688
 https://asciinema.org/a/600689
 
 https://asciinema.org/a/600740
+
+https://asciinema.org/a/600842
