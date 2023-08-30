@@ -1,4 +1,4 @@
-import newGame from '../index.js';
+import runGame from '../index.js';
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (x) => {
@@ -15,5 +15,5 @@ const startRound = () => {
 };
 
 export default () => {
-  newGame(gameRules, startRound);
+  runGame(gameRules, startRound);
 };

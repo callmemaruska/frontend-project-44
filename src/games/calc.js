@@ -1,4 +1,4 @@
-import newGame from '../index.js';
+import runGame from '../index.js';
 
 const gameRules = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
@@ -28,5 +28,5 @@ const startRound = () => {
 };
 
 export default () => {
-  newGame(gameRules, startRound);
+  runGame(gameRules, startRound);
 };

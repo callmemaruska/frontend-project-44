@@ -1,4 +1,4 @@
-import newGame from '../index.js';
+import runGame from '../index.js';
 
 const gameRules = 'What number is missing in the progression?';
 
@@ -33,5 +33,5 @@ const startRound = () => {
 };
 
 export default () => {
-  newGame(gameRules, startRound);
+  runGame(gameRules, startRound);
 };
