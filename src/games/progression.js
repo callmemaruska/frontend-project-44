@@ -1,10 +1,7 @@
 import runGame from '../index.js';
+import randomNumber from '../randomNumber.js';
 
 const gameRules = 'What number is missing in the progression?';
-
-function randomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min) + min);
-}
 
 const getArrayProgression = (length, firstNumber, step) => {
   const progressionArr = [];

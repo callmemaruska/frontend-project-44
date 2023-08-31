@@ -1,16 +1,15 @@
 import runGame from '../index.js';
+import randomNumber from '../randomNumber.js';
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (x) => {
-  if (x % 2 === 0) {
-    return 'yes';
-  } return 'no';
+  return (x % 2 === 0) ? 'yes' : 'no';
 };
 
 const startRound = () => {
-  const randomNumber = (Math.floor(Math.random() * 10));
-  const rightAnswer = String(isEven(randomNumber));
-  const question = (`${randomNumber}`);
+  const number = randomNumber(0, 100);
+  const rightAnswer = String(isEven(number));
+  const question = (`${number}`);
   return [question, rightAnswer];
 };
 
