@@ -4,14 +4,16 @@ import generateRandomNumber from '../randomNumber.js';
 const gameRules = 'Find the greatest common divisor of given numbers.';
 
 const findGCD = (number1, number2) => {
-  while (number1 !== 0 && number2 !== 0) {
-    if (number1 > number2) {
-      number1 %= number2;
+  let x = number1;
+  let y = number2;
+  while (x !== 0 && y !== 0) {
+    if (x > y) {
+      x %= y;
     } else {
-      number2 %= number1;
+      y %= x;
     }
   }
-  return number1 + number2;
+  return x + y;
 };
 
 const startRound = () => {
