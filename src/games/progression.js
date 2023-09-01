@@ -18,7 +18,7 @@ const randomArrIndex = (arr) => {
 };
 
 const startRound = () => {
-  const length = generateRandomNumber(5, 10);
+  const length = generateRandomNumber(6, 10);
   const firstNumber = generateRandomNumber(1, 20);
   const step = generateRandomNumber(2, 10);
   const progressionArr = getArrayProgression(length, firstNumber, step);
