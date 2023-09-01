@@ -24,8 +24,10 @@ const startRound = () => {
   const progressionArr = getArrayProgression(length, firstNumber, step);
   const guessNumber = randomArrIndex(progressionArr);
   const rightAnswer = String(progressionArr[guessNumber]);
-  progressionArr[guessNumber] = '..';
-  const question = (`${progressionArr}`);
+
+  const progressionString = progressionArr.join(' ');
+  const question = progressionString.replace(rightAnswer, '..');
+
   return [question, rightAnswer];
 };
 
