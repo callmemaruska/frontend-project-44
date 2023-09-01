@@ -1,5 +1,5 @@
 import runGame from '../index.js';
-import randomNumber from '../randomNumber.js';
+import generateRandomNumber from '../randomNumber.js';
 
 const gameRules = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
@@ -18,9 +18,9 @@ const calculate = (x, y, operator) => {
 };
 
 const startRound = () => {
-  const number1 = randomNumber(0, 10);
-  const number2 = randomNumber(0, 10);
-  const randomIndex = randomNumber(0, operators.length);
+  const number1 = generateRandomNumber(0, 10);
+  const number2 = generateRandomNumber(0, 10);
+  const randomIndex = generateRandomNumber(0, operators.length);
   const randomOperator = operators[randomIndex];
 
   const rightAnswer = String(calculate(number1, number2, randomOperator));

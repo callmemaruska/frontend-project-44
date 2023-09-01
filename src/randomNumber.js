@@ -1,5 +1,5 @@
-function randomNumber(min, max) {
+function generateRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 };
 
-export default randomNumber;
+export default generateRandomNumber;
